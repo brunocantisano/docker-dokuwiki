@@ -1,0 +1,1 @@
+docker run --rm --volumes-from dokuwiki -v `pwd`:/backup alpine tar xzf /home/docker/backup/dokuwiki/dw-backup.tgz
